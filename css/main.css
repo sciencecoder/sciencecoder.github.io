@@ -24,8 +24,6 @@ Text Domain: developer
 *	 06.2 - Image Hover Effect
 * 07.0 - More About Me
 * 	 07.1 - Animated Number
-* 08.0 - Testimonials
-* 	 08.1 - Owl Carousel (http://owlgraphic.com/owlcarousel/)
 * 09.0 - Contact
 *	 09.1 - Social Icon
 * 10.0 - Footer
@@ -168,9 +166,6 @@ body {
     font-size: 100px;
     margin: 0;
     margin-bottom: 15px;  
-    /* font-family: 'Lato', sans-serif; */
-    /* font-family: 'Source Sans Pro', sans-serif; */
-    /* font-family: 'Niconne', cursive; */
     font-weight: 400;
     font-family: 'Rouge Script', cursive;
     line-height: 90px;
@@ -206,26 +201,7 @@ body {
 	top: 0px;
 }
 
-.btn-hire {
-	text-transform: uppercase;
-	color: #111;
-	border: 1px solid rgb(136, 138, 145);
-	font-family: 'Oxygen', sans-serif;
-	font-weight: 300;
-	word-spacing: 5px;
-	letter-spacing: 1px;
-	box-shadow: 0 3px 1px 0 rgba(20, 20, 26, 0.55);
-	border-radius: 0;
-	font-size: 18px;
-	background-color: rgba(247, 255, 248, 1);
-	padding: 16px 48px;
-}
 
-.btn-hire:hover {
-	color: #fff;
-	border: 1px solid #878A91;
-	background-color: rgba(32, 36, 47, 0.94);
-}
 
 /*////////////////////////////////////////////////////////////////////////
 //  06 - Latest works
@@ -251,20 +227,16 @@ body {
 .portfolio-items {
 	margin-bottom: 60px;
 }
-
-.portfolio-item {
-	position: relative;
+.portfolio-items .row, .portfolio-items .col-md-12 {
+  padding: 0 !important;
+  margin: 0 !important;
 }
+
 
 /*////////////////////////////////////////////////////////////////////////
 //  06 - Latest works > isotope
 ///////////////////////////////////////////////////////////////////////*/
 
-.isotope:after {
-  content: '';
-  display: block;
-  clear: both;
-}
 
 .element-item {
   position: relative;
@@ -279,9 +251,6 @@ body {
 }
 
 .btn-view {
-	/* border: 1px solid #35405f;
-	color: #35405f;
-	border-radius: 0; */
 	text-transform: uppercase;
 	color: lightseagreen;
 	border: 1px solid rgba(32, 178, 170, 0.86);
@@ -356,82 +325,6 @@ body {
 	font-size: 22px;
 }
 
-/* ///////////////////////////////////////////////////////////////////// 
-//  07 - More About Me 
-/////////////////////////////////////////////////////////////////////*/
-
-/* #services {
-	background: url(../img/bg/bg-2.jpg) no-repeat center center fixed;
-	background-size: cover;
-	color: #fff;
-}
-
-.pro-stat {
-	font-size: 20px;
-	text-transform: uppercase;
-	text-align: center;
-	font-style: italic;
-}
-
-.proj-name {
-	font-family: Pacifico;
-	font-size: 150px;
-	text-align: center;
-	line-height: 90%;
-	margin-bottom: 80px;
-} */
-#services .block-heading h1 {
-    color: #fff;
-	
-    font-family: 'Milonga', cursive;
-	font-weight: 400;
-	
-    font-size: 55px;
-	word-spacing: 5px;
-}
-
-
-/* ============================  animated  numbers   ==================================*/
-
-.parallax{
-    width: 100%;
-    color: #fff;
-    text-align: center;
-}
-
-#numbers
-{
-	background: url(../img/bg/number1.gif) repeat center center fixed;
-}
-#numbers .overlay{
-    padding: 60px 0px 80px 0px;
-}
-ul.numbersList {
-    margin: 0px auto;
-    padding: 0px;
-    overflow: hidden;
-    list-style: none;
-    text-align: center;
-}
-ul.numbersList li{
-    border-right: 1px solid rgba(255, 255, 255, 0.5);
-}
-ul.numbersList li:last-child{
-    border: none;
-}
-ul.numbersList h4{
-    color: rgb(234, 234, 234);
-    margin-bottom: 58px;
-}
-ul.numbersList span{
-    font-size: 62px;
-    font-weight: 700;
-}
-
-.numbers-title {
-    padding: 10px 0;
-    position: relative;
-}
 
 
 /* ///////////////////////////////////////////////////////////////////// 
@@ -463,10 +356,6 @@ ul.numbersList span{
 	font-size: 55px;
 }
 
-#about .testimonial {
-	padding: 25px;
-	cursor: -webkit-grab;
-}
 
 #about img {
 	border-radius: 100%;
@@ -595,17 +484,6 @@ input[type="submit"]:hover {
 .facebook-icon:hover {
     background-color: transparent;
     color: #fff;
-}
-
-.twitter-icon {
-	padding: 10px 15px;
-	border: 1px solid #33CCFF;
-	background-color: #33CCFF;
-}
-
-.twitter-icon:hover {
-	background-color: transparent;
-	color: #fff;
 }
 
 .g-plus-icon {
