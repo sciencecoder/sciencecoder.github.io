@@ -324,7 +324,9 @@ body {
 	color: cyan;
 	font-size: 22px;
 }
-
+figcaption h2 a {
+  text-decoration: none;
+}
 
 
 /* ///////////////////////////////////////////////////////////////////// 
