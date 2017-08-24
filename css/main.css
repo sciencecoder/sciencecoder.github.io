@@ -324,7 +324,7 @@ body {
 	color: cyan;
 	font-size: 22px;
 }
-figcaption h2 a {
+figcaption h2 a:hover {
   text-decoration: none;
 }
 
