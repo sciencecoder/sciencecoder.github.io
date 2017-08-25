@@ -159,7 +159,7 @@ body {
 ///////////////////////////////////////////////////////////////////////*/
 
 .middle {
-	padding-top: 200px;
+	padding-top: 150px;
 }
 
 .pro-name {
@@ -381,10 +381,10 @@ figcaption h2 a:hover {
 
 
 #about img {
-	border-radius: 100%;
+	border-radius: 50%;
 	margin: 15px;
     height: 200px;
-    width: 200px;
+    width: 240px;
 }
 
 
