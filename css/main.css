@@ -215,6 +215,7 @@ body {
 	font-size: 18px;
 	background-color: rgba(247, 255, 248, 1);
 	padding: 16px 48px;
+    margin-bottom: 20 px;
 }
 
 .btn-hire:hover {
