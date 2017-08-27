@@ -345,10 +345,17 @@ body {
 	color: cyan;
 	font-size: 22px;
 }
-figcaption h2 a:hover {
+figcaption a:hover {
   text-decoration: none;
 }
-
+figcaption a {
+  display: flex;
+}
+figcaption a h2 {
+  margin-top: auto;
+  margin-bottom: auto;
+  width:100%;
+}
 
 /* ///////////////////////////////////////////////////////////////////// 
 //  08 - Testimonials
@@ -356,7 +363,7 @@ figcaption h2 a:hover {
 
 #about {
   height: 100vh;
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 #about .block-heading{
@@ -365,9 +372,9 @@ figcaption h2 a:hover {
 
 
 #about p {
-    line-height: 34px;
-    margin-top: 20px;
-    font-size: 25px;
+  line-height: 34px;
+  margin-top: 20px;
+  font-size: 25px;
   font-family: sans-serf;
 }
 
