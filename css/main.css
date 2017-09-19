@@ -76,12 +76,9 @@ body {
 }
 
 .block-heading {
-	margin-bottom: 60px;
+	margin-bottom: 8%;
 }
 
-.block-heading p {
-    font-size: 18px;
-}
 
 /*////////////////////////////////////////////////////////////////////////
 //  02 - Header
@@ -93,22 +90,7 @@ body {
 }
 
 
-.navbar h1 {
-	margin: 0;
-	font-family: 'Oswald', sans-serif;
-	margin-top: 11px;
-	font-size: 26px;
-	font-weight: 300;
-	letter-spacing: 2px;
-    color: #fff;
-}
 
-.navbar h1:focus {
-    text-decoration: none;
-}
-.navbar h1:hover {
-	text-decoration: none;
-}
 
 /*////////////////////////////////////////////////////////////////////////
 //  03 - Navigation
@@ -136,12 +118,12 @@ body {
 }
 
 .overlay-2 {
-	padding: 60px 0;
+	padding: 3% 0;
 	background-color: rgba(50, 81, 121, 0.6);
 }
 
 .overlay-3 {
-	padding: 60px 0;
+	padding: 15% 0;
 	/* background-color: rgba(9, 20, 39, 0.83); */
 	/* background-color: rgba(24, 77, 77, 0.93); */
 	background-color: rgba(33, 103, 88, 0.9);
@@ -159,16 +141,16 @@ body {
 ///////////////////////////////////////////////////////////////////////*/
 
 .middle {
-	padding-top: 150px;
+	padding-top: 15vh;
 }
 
 .pro-name {
-    font-size: 100px;
+    font-size: 550%;
     margin: 0;
-    margin-bottom: 15px;  
+    margin-bottom: 10%;  
     font-weight: 400;
     font-family: 'Rouge Script', cursive;
-    line-height: 90px;
+   
     color: #fff;
     letter-spacing: 1px;
     word-spacing: 6px;
@@ -176,30 +158,18 @@ body {
 }
 
 .tagline {
-	font-size: 27px;
-	margin-bottom: 60px;
+	font-size: 200%;
+	margin-bottom: 5%;
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
-	line-height: 56px;
+	line-height: 120%;
 	word-spacing: 2px;
 	text-shadow: 2px 2px #1C2725;
 	letter-spacing: 2px;
 	text-transform: capitalize;
 }
 
-.bottom {
-	position: absolute;
-	width: 100%;
-	bottom: 4%;
-}
-
-.bottom a {
-	color: #fff;
-	display: inline-block;
-	position: relative;
-	top: 0px;
-}
 
 
 .btn-hire {
@@ -212,10 +182,10 @@ body {
 	letter-spacing: 1px;
 	box-shadow: 0 3px 1px 0 rgba(20, 20, 26, 0.55);
 	border-radius: 0;
-	font-size: 18px;
+	font-size: 120%;
 	background-color: rgba(247, 255, 248, 1);
 	padding: 16px 48px;
-    margin-bottom: 20 px;
+    margin-bottom: 40%;
 }
 
 .btn-hire:hover {
@@ -229,15 +199,14 @@ body {
 ///////////////////////////////////////////////////////////////////////*/
 
 #portfolio {
-	padding: 60px 0;
+	padding: 15% 0;
 }
 
 #portfolio .block-heading h1 {
     color: rgb(0, 129, 129);
 	
 	font-weight: 400;
-	
-    font-size: 55px;
+    font-size: 350%;
     font-family: 'Milonga', cursive;
 }
 
@@ -246,7 +215,7 @@ body {
 }
 
 .portfolio-items {
-	margin-bottom: 60px;
+	margin-bottom: 20%;
 }
 .portfolio-items .row, .portfolio-items .col-md-12 {
   padding: 0 !important;
@@ -341,7 +310,7 @@ body {
 .effect-zoe p.icon-links a i
 {
 	display: inline-block;
-	padding: 30px 10px;
+	padding: 3% 1%;
 	color: cyan;
 	font-size: 22px;
 }
@@ -362,7 +331,7 @@ figcaption a h2 {
 /////////////////////////////////////////////////////////////////////*/
 
 #about {
-  height: 100vh;
+  min-height: 100vh;
   padding: 60px 0;
 }
 
@@ -619,9 +588,12 @@ i.fa.fa-envelope-o {
 	}
 }
 
-@media (max-width: 500px) {
-	.contact-info {
-		padding: 30px 10px;
+@media (max-height: 450px) {
+  .pro-name {
+   font-size: 350%;
+  }
+	.tagline {
+		display: none;
 	}
 }
 
@@ -638,6 +610,7 @@ i.fa.fa-envelope-o {
     -o-background-size: cover;
     background-size: cover;
     }
+  .pro-name {
+    font-size: 350%;
+  }
 }
-
-
