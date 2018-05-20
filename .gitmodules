@@ -1,6 +1,6 @@
-[submodule "Farm2ME"]
+[submodule "farm2me"]
 	path = Farm2ME
-	url = ../Farm2ME
+	url = ../farm2me
 [submodule "farm2me"]
 	path = farm2me
 	url = ../farm2me
