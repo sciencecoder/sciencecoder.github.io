@@ -1,32 +1,6 @@
 // Magic. Do not alter.
 //UI/UX Functionality only. add new file for server / backend interaction 
-// Disapearing navbar functionality
-var iScrollPos = 0;
 
-$(window).scroll(function () {
-
-  /* if ($(this).scrollTop() > window.innerHeight) {
-    alert('You scrolled down! I think')
-  } */
-  var iCurScrollPos = $(this).scrollTop();
-  if (iCurScrollPos > iScrollPos) {
-    //Scrolling Down
-    //alert('You scrolled down! I am sure')
-    $('.nav-container')
-      .css({'max-height': '0px',
-            'overflow': 'hidden'
-                            }); 
-
-  } else {
-    //Scrolling Up
-    //.nav-container's height must not be high because it is a fixed container. height: 100% for it, = 100viewport height, its high z-index means every thing else is under it and un - clickable, though it be visible checkout dev tools and see .nav-container's hight
-    $('.nav-container')
-      .css({'max-height': '100vh',
-            'overflow': 'visible'
-                            }); 
-  }
-  iScrollPos = iCurScrollPos;
-});
 
 $('svg.navbar__icons--search').on('click', function() {
   alert('hey')
@@ -52,16 +26,16 @@ $('.mobile-nav__category__name').on('click', function() {
 //Category slider
 $('#categories').slick({
   infinite: true,
-  slidesToShow: 4,
+  slidesToShow: 15,
   slidesToScroll: 4,
   arrows: true,
   nextArrow: $('.categories-slider-container .slider-controls__next'),
   prevArrow: $('.categories-slider-container .slider-controls__prev'),
   responsive: [
     {
-      breakpoint: 800,
+      breakpoint: 1340,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 10,
         slidesToScroll: 3,
         infinite: true,
 
@@ -77,7 +51,6 @@ $('#categories').slick({
       }
     }]
 });
-
 
 // Replaces with spaces the braces in cases where braces in places cause stasis 
   // $str = str_replace(array("\{","\}")," ",$str);
