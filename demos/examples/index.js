@@ -1,14 +1,5 @@
  /*
-    
-    image data format
-     
-
-    description: "A unicorn and a narwhal nuzzling their horns"
-horns: 1
-image_url: "http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg"
-keyword: "narwhal"
-title: "UniWhal"
-
+    I am tired. and the dwarves node grimly at my grimy code.
     */
 
 function ImageViewer() {
@@ -34,7 +25,7 @@ function ImageViewer() {
        }
 
        else {
-           console.log("filtering dsta by keyword")
+           console.log("filtering data by keyword")
         this.current_data = this.img_data.filter(function(item) {
             return item.keyword.toLowerCase() == keyword.toLowerCase();
         });
@@ -47,7 +38,7 @@ function ImageViewer() {
 
 var imageViewer = new ImageViewer();
 
-$.get("http://localhost:8080/page-1.json", function(data) {
+$.get("https://sciencecoder.github.io/demos/examples/page-1.json", function(data) {
     //console.log(data);
     
     
