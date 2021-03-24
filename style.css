@@ -19,9 +19,11 @@ nav {
     border-bottom: 1px solid;
     /* position: fixed; */
     width: 100%;
-    
+    height: 100%;
+    display: flex;
 }
 nav ul {
+    width: 100%;
     list-style: none;
     padding: 0;
     display: flex;
@@ -36,6 +38,19 @@ nav ul li {
 #main-logo {
     width: 100px;
     margin-left: 0;
+}
+
+/*
+first section
+*/
+.first-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 15vh 85vh;
+}
+
+.first-section > *:nth-child(1) {
+    grid-column: span 2;
 }
 
 /*resuable styles*/
