@@ -1,343 +1,251 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta
+      name="Keywords"
+      content="web developer, portfolio, web, site, page, programming, programmer, developer, software, qa, engineer, test, testing
+	Adam Orr, Adam, Orr, Adam O, Upwork, Freelance, freelance web developer, NM, New Mexico, Santa Fe, Las Vegas NM"
+    />
+    <meta
+      name="Description"
+      content="I'm a software engineer by trade. Build excellent websites"
+    />
 
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta name="format-detection" content="telephone=no" />
-	<meta name="Keywords" content="web developer, portfolio, web, site, page, programming, programmer, developer, software, qa, engineer, test, testing
-	Adam Orr, Adam, Orr, Adam O, Upwork, Freelance, freelance web developer, NM, New Mexico, Santa Fe, Las Vegas NM" />
-	<meta name="Description" content="I'm a software engineer by trade. Build excellent websites" />
+    <meta property="og:title" content="Adam O" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sciencecoder.github.io" />
+    <meta
+      property="og:image"
+      content="https://sciencecoder.github.io/favicon.ico"
+    />
 
-	<meta property="og:title" content="Adam O" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="https://leonardoprates.github.io" />
-	<meta property="og:image" content="https://leonardoprates.github.io/favicon.ico" />
+    <title>Adam Orr</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Electrolize&family=Prata&display=swap"
+      rel="stylesheet"
+    />
 
-	<title>53662736772837</title>
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Electrolize&family=Prata&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" />
-	<link rel="stylesheet" href="style.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
 
-<body>
-	
-	<div>
-		<section class='first-section'>
-            <div class="navbar-wrapper">
-				<nav>
-					<ul>
-						<li id="main-logo"><img src="media/AOEngineeringLogo.svg"></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#contact">Contact</a></li>
-						
-						
-					</ul>
-				</nav>
-			</div>
-			<div>
-				<div class="padding">
-					<h1>Adam Orr</h1>
-					<h3>Front end Web developer</h3>
+    <link rel="stylesheet" href="style.css" />
+    <!--tailwind cdn. better to use with post css processing-->
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
 
-					<p>
-						Functional websites & applications that delight your
-						users.
-					</p>
-					<div class="btn">
-						<a href="https://www.upwork.com/freelancers/~0114560312f343e8c9" class="highlight">
-							<span>Hire me</span>
-							<span class="icon_arrow">-></span>
-						</a>
-					</div>
-				</div>
+  <body>
+    <div class="wrapper">
+      <header class="h-28 flex px-14 divider-orange?">
+        <div class="items-center flex p-4">
+          <img src="media/AOEngineering.svg" id="logo" />
+        </div>
+        <div class="items-center flex justify-end pr-4">
+          <ul class="mt-6 flex">
+            <li class="flex flex-col w-8 m-2">
+              <a href="https://github.com/sciencecoder" target="_blank">
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  style=""
+                >
+                  <title>Adam's GitHub</title>
+                  <path
+                    d="M12.5 1.563c-6.04 0-10.938 5.024-10.938 11.215 0 4.956 3.135 9.156 7.481 10.64.06.013.123.02.186.02.405 0 .561-.298.561-.557 0-.269-.01-.972-.015-1.91a5 5 0 01-1.103.133c-2.105 0-2.583-1.636-2.583-1.636-.498-1.294-1.216-1.64-1.216-1.64-.952-.67-.005-.69.068-.69h.005c1.099.098 1.675 1.163 1.675 1.163.547.957 1.28 1.225 1.934 1.225a3.077 3.077 0 001.25-.293c.097-.722.38-1.215.693-1.499-2.427-.283-4.98-1.245-4.98-5.542 0-1.225.424-2.226 1.123-3.007-.113-.284-.489-1.426.107-2.97a.91.91 0 01.244-.024c.396 0 1.29.152 2.764 1.177a10.167 10.167 0 015.478 0c1.475-1.025 2.368-1.177 2.764-1.177a.91.91 0 01.244.025c.596 1.543.22 2.685.108 2.969.698.786 1.123 1.787 1.123 3.007 0 4.307-2.559 5.254-4.995 5.533.39.346.742 1.03.742 2.075 0 1.499-.015 2.71-.015 3.076 0 .264.151.561.557.561a.949.949 0 00.195-.019c4.35-1.484 7.48-5.688 7.48-10.64 0-6.191-4.897-11.216-10.937-11.216z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="flex flex-col w-8 m-2">
+              <a href="https://codepen.io/sciencecoder/" target="_blank">
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  style=""
+                >
+                  <title>Adam's CodePen</title>
+                  <path
+                    d="M11.78 14.84c-.749-.505-1.502-1.004-2.25-1.51-.097-.067-.167-.072-.268 0l-1.899 1.276c1.524 1.014 4.551 3.037 4.551 3.037v-2.627c0-.06-.076-.136-.135-.175zm-2.254-3.088c.755-.497 1.505-.999 2.251-1.507a.367.367 0 00.137-.261V7.459S8.887 9.467 7.36 10.484c.67.447 1.303.874 1.943 1.29.05.033.166.015.223-.022zm3.65-1.53c.772.523 1.547 1.041 2.325 1.554a.21.21 0 00.188 0l1.94-1.293-4.543-3.038v2.605a.234.234 0 00.09.172zm-.573 1.027a.256.256 0 00-.231.008c-.236.146-.463.303-.692.456l-1.238.83 1.896 1.263a.3.3 0 00.306.006l1.904-1.27s-1.663-1.107-1.945-1.293zm-5.718.33v1.933l1.446-.969-1.446-.965z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M12.5 1.563C6.46 1.563 1.562 6.458 1.562 12.5c0 6.04 4.897 10.938 10.938 10.938 6.04 0 10.938-4.897 10.938-10.938 0-6.04-4.897-10.938-10.938-10.938zm6.787 12.939c0 .282-.13.481-.367.64a2312.953 2312.953 0 00-6.02 4.012c-.285.192-.545.183-.83-.006a1212.612 1212.612 0 00-5.987-3.988c-.25-.166-.371-.37-.371-.67v-3.894c0-.3.123-.505.372-.67C8.082 8.6 10.085 7.27 12.077 5.937c.284-.19.541-.195.827-.004 2.003 1.342 4.01 2.68 6.018 4.013.229.152.364.34.364.619l.001 3.937z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    d="M15.442 13.341c-.736.5-1.474.994-2.216 1.482-.118.077-.142.161-.14.302v2.507l4.541-3.028-1.881-1.263c-.113-.079-.19-.077-.304 0zm2.624.169v-1.935l-1.444.97 1.444.965z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+            <li class="flex flex-col w-8 m-2">
+              <a href="https://www.linkedin.com/in/adam-o-a290a8143" target="_blank">
+                <svg
+                  width="23"
+                  height="23"
+                  viewBox="0 0 23 23"
+                  fill="none"
+                  style=""
+                >
+                  <title>Adam's Linkedin</title>
+                  <path
+                    d="M19.953 1.438H3.157c-.918 0-1.72.66-1.72 1.567v16.833c0 .912.802 1.724 1.72 1.724h16.791c.923 0 1.614-.818 1.614-1.724V3.005c.006-.907-.691-1.567-1.609-1.567zM7.676 18.212H4.793V9.249h2.883v8.964zM6.334 7.886h-.02c-.923 0-1.52-.687-1.52-1.547 0-.876.612-1.546 1.556-1.546.943 0 1.52.665 1.541 1.546 0 .86-.598 1.547-1.557 1.547zm11.879 10.327H15.33V13.31c0-1.174-.42-1.976-1.463-1.976-.797 0-1.269.539-1.478 1.064-.08.189-.1.446-.1.708v5.106H9.406V9.249h2.883v1.247c.42-.597 1.075-1.457 2.6-1.457 1.893 0 3.324 1.247 3.324 3.937v5.237z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <section class="banner-section">
+          <div class="flex h-full">
+            <div class="border-2 w-1/2 bg-image text-white p-16 pt-32">
+              <div class="relative h-full flex flex-col">
+                <h1 class="text-8xl">Adam Orr</h1>
+                <h2 class="text-6xl mt-6 text-orange">
+                  Front End UI Developer
+                </h2>
+                <div class="mt-16 w-5/6 text-xl">
+                  <p>
+                    My goal is creating digital experiences that delight my
+                    clients and end users. I value continuous learning,
+                    connecting with clients to make their projects successful,
+                    and making truly useful applications. Software development to me is like
+                    digital carpentry.There's nothing like hard work and high
+                    quality.
+                  </p>
+                </div>
+                <div class="text-xl m-auto">
+                  <a
+                    href="https://www.upwork.com/freelancers/~0114560312f343e8c9"
+                    target="_blank"
+                  >
+                    <button
+                      class="p-4 border-2 m-auto flex items-center bg-white text-black btn"
+                      type="button"
+                    >
+                      <span class="pr-2">hire me</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M17 8l4 4m0 0l-4 4m4-4H3"
+                        />
+                      </svg>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-1/2 p-16 pt-32 flex flex-col">
+              <h2 class="text-6xl">Technologies</h2>
+              <p class="mt-6 text-xl">
+                some of the tools & technologies I have experience with:
+              </p>
+              <div class="mt-6 flex flex-wrap -m-4">
+                <div class="flex flex-col w-16 m-4">
+                  <img class="w-full" src="media/html5 (1).svg" />
+                  <span class="text-center font-bold">HTML5</span>
+                </div>
 
-			</div>
-			<div  class='dark-theme'>
-				<div class="padding">
-						<!-- <svg></svg> -->
-						<img src="" />
-					</div>
-			</div>
-			
-		</section>
-		<section>
-			<div>
-				<h2 class=" padding2">selected work</h2>
-					<div class="card-group_x lght-text">
-						<div class="card">
-							<div class="text padding2">
-								<h3>
-									MiniUrl
-								</h3>
-								<p>
-									A backend API I created with Node.js MongoDB that works like <a
-										href="https://tinyurl.com/app">tinyurl</a>
-								</p>
-								<div  class="btn">
-								<a href="https://miniurl.herokuapp.com/" class=" ">
-									<span>see Project</span>
-									<span class="icon_arrow">-></span>
-								</a>
-							</div>
-							</div>
-							<div class="graphic">
-								<img src="media/placeholder.jpg" />
-							</div>
+                <div class="flex flex-col w-16 m-4">
+                  <img class="w-full" src="media/css.svg" />
+                  <span class="text-center font-bold">CSS</span>
+                </div>
+                <div class="flex flex-col w-16 m-4">
+                  <img class="w-full" src="media/javascript.svg" />
+                  <span class="text-center font-bold">Javascript</span>
+                </div>
+                <div class="flex flex-col w-16 m-4">
+                  <img class="w-full" src="media/node-js.svg" />
+                  <span class="text-center font-bold">NodeJS</span>
+                </div>
+                <div class="flex flex-col w-16 m-4">
+                  <img class="w-full" src="media/react.svg" />
+                  <span class="text-center font-bold">ReactJS</span>
+                </div>
+                <div class="flex flex-col w-16 m-4">
+                  <img class="w-full" src="media/djs.svg" />
+                  <span class="text-center font-bold">D3JS</span>
+                </div>
+                <div class="flex flex-col w-16 m-4">
+                  <img class="w-full" src="media/angularjs.svg" />
+                  <span class="text-center font-bold">AngularJS</span>
+                </div>
+                <div class="flex flex-col w-16 m-4">
+                  <img class="w-full" src="media/heroku.svg" />
+                  <span class="text-center font-bold">Heroku</span>
+                </div>
+                <div class="flex flex-col w-16 m-4">
+                  <img class="w-full" src="media/git.svg" />
+                  <span class="text-center font-bold">Git</span>
+                </div>
+              </div>
 
-						</div>
-						<div class="card">
-							<div class="text padding2">
-								<h3>
-									Tic Tac toe Game
-								</h3>
-								<p>
-									A randomizd tick tac Toe game
-										
-								</p>
-								<div  class="btn">
-								<a href="https://codepen.io/sciencecoder/full/PNrjyM" class=" ">
-									<span>see project</span>
-									<span class="icon_arrow">-></span>
-								</a>
-							</div>
-							</div>
-							<div class="graphic">
-								<img src="media/placeholder.jpg" />
-							</div>
-
-						</div>
-						<div class="card">
-							<div class="text padding2">
-								<h3>
-									Recipe Listing App
-								</h3>
-								<p>
-									A Reactjs App that uses localStorage to create save, update, and delete recipes
-								</p>
-								<div  class="btn">
-								<a href="https://codepen.io/sciencecoder/full/RRvKqB" class=" ">
-									<span>see project</span>
-									<span class="icon_arrow">-></span>
-								</a>
-							</div>
-							</div>
-							<div class="graphic">
-								<img src="media/placeholder.jpg" />
-							</div>
-
-						</div>
-						<div class="card">
-							<div class="text padding2">
-								<h3>
-									Simon Game
-								</h3>
-								<p>
-									1970's style digital simon game
-								</p>
-								<div  class="btn">
-								<a href="https://codepen.io/sciencecoder/full/VjePXJ" class=" ">
-									<span>see project</span>
-									<span class="icon_arrow">-></span>
-								</a>
-							</div>
-							</div>
-							<div class="graphic">
-								<img src="media/placeholder.jpg" />
-							</div>
-
-						</div>
-						
-					</div>
-					<div class="padding2">
-						<div class="btn highlight-container">
-							<a href="#" class=" highlight">
-								<span>See All projects</span>
-								<span class="icon_arrow">-></span>
-							</a>
-						</div>
-
-					</div>
-				</div>
-		</section>
-		<section class="split-box">
-
-
-
-
-			<div class="padding2">
-				<h2>Services</h2>
-				<div class="card-group_grid flex">
-					<div class='card'>
-						<div class="padding2">
-							<div class="icon">
-								<<>>
-							</div>
-							<h3>Front end Development</h3>
-							<p>
-								I build interactive websites and web apps that are functional, uncluttered,
-								and apealing to users
-							</p>
-						</div>
-					</div>
-					<div class='card'>
-						<div class="padding2">
-							<div class="icon">
-								<<>>
-							</div>
-							<h3>BackEnd development</h3>
-							<p>
-								I am familiar with backend servers and databases an have built several API projects
-							</p>
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<div class="padding2">
-
-				<h2>Skills</h2>
-				<div class="card-group_grid flex">
-					<div class='card'>
-						<div class="padding2">
-							<div class="icon">
-								<<>>
-							</div>
-							<h3>Reactjs/JAMstack </h3>
-							
-						</div>
-					</div>
-					<div class='card'>
-						<div class="padding2">
-							<div class="icon">
-								<<>>
-							</div>
-							<h3>Nodejs</h3>
-							
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-
-		</section>
-		<section id="about">
-			<h2 class="center-text padding">About Me</h2>
-			<div class="center_xy padding-x">
-
-				<div class="padding-x">
-					<p>
-
-						I am a front end developer who builds websites and interactive web apps. I have built several
-						back
-						end server side projects for apis and microservices I am also familiar with design, so I can
-						provide
-						a complete website with functional design, content, and SEO for small client projects.
-
-
-						I specialize in front end app development with JAMStack / Reactjs.
-
-
-						I believe in always learning so I can adapt to whatever project requirements or tools I need
-						within
-						a development project.
-						<a href="https://github.com/sciencecoder">my github link</a>
-
-					</p>
-				</div>
-			</div>
-		</section>
-		<section class="split-box/" id="contact">
-
-		
-				<div class="padding2">
-					<h2> Get in touch!</h2>
-				
-				
-							<div>
-									<h3 class="outline">
-										<a href="https://www.upwork.com/freelancers/~0114560312f343e8c9" class="highlight">
-											<span class="text">Hire me Through upwork</span>
-											<span class="icon">-></span>
-										</a>
-									</h3>
-								</div>
-								<div>
-									<div class="flex">
-										<h4>What is upwork?</h4>
-										<span class="icon mobile-only">+</span>
-									</div>
-									<p>
-										Upwork is a useful platform for mananging contracts, payment, and records. They have a
-										secure messaging system, contract managment, and other features. I conduct most of my work
-										through upwork.
-									</p>
-								</div>
-			
-				
-				</div>
-				
-			
-				<div class="padding2 lght-text" style="display: none">
-						<h2>Send a Message</h2>
-					<div>
-						
-						<form>
-							<fieldset>
-								<legend>
-									
-								</legend>
-								<div>
-									<label for="form-name">Name:</label>
-									<input type="text" name="your name" id="form-name">
-								</div>
-								<div>
-									<label for="form-email">Email</label>
-									<input type="text" name="your email" id="form-email">
-								</div>
-								<div>
-									<label for="form-message">Message</label>
-									<input type="textbox" name="your message" id="form-message">
-								</div>
-								<div class="btn-submit_container">
-									<div class="btn">
-									<button type="submit" ><span>Send</span><span class="icon">-></span></button>
-								</div>
-									<div class="padding-x">
-									<a href="#">Privacy policy</a>
-								</div>
-								</div>
-
-							</fieldset>
-						</form>
-					</div>
-					<div class="flex">
-						<a href="#">
-							<span>back to top</span>
-							<span class="circle">
-								<span class="icon"></span>
-							</span>
-						</a>
-					</div>
-				</div>
-			
-
-			
-		</section>
-		<footer class='padding flex'>
-				<!-- <div><a href="#">legal</a></div>
-				<div><a href="#">privacy</a></div> -->
-				<div>copywrite 2021 Adam Orr</div>
-			</footer>
-	</div>
-
-	<script src="script.js"></script>
-</body>
-
+              <footer class="flex flex-wrap">
+                <div>
+                  <span> &copy; Adam Orr <span id="currentYear">0</span></span>
+                  <a
+                    class="underline text-blue-500"
+                    href="https://iconscout.com/icons/html5"
+                    target="_blank"
+                    >Html5 Icon</a
+                  >
+                  & others by
+                  <a href="https://iconscout.com/contributors/icon-mafia"
+                  target="_blank"
+                  class="underline text-blue-500"
+                    >Icon Mafia</a
+                  >
+                  on
+                  <a
+                    href="https://iconscout.com"
+                    target="_blank"
+                    class="underline text-blue-600"
+                    >Iconscout</a
+                  >
+                </div>
+              </footer>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>

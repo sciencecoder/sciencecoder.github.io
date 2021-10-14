@@ -1,3 +1,20 @@
+
+console.log("javascript is running")
+document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+
+
+
+// $(window).scroll(function() {
+//   console.log($(this).scrollTop())
+//   if ($(this).scrollTop() > 0) {
+   
+//     $('.a').fadeOut();
+//   } else {
+//     $('.a').fadeIn();
+//   }
+// });
+
 // const n = document.getElementById('n');
 
 // const getRandomCharacter = (min, max) =>
@@ -31,8 +48,3 @@
 //   }, 1000);
 // }, 5000);
 
-
-var x = 5;
-for(Var I) {
-	
-}
