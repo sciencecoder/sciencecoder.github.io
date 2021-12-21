@@ -19,7 +19,7 @@
     width: 75px;
   }
   section {
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
   }
   /* section.banner-section {
@@ -45,7 +45,7 @@
   
   
   /*I could have added orange to tailwind config */
-  
+  /* To do: use wizardy CSS for font sizes. set font-size on body with break points for screensizes, and use ems to use globally consistent text sizing*/
   .text-orange {
     color: var(--hghlght-color);
   }
@@ -65,4 +65,18 @@
     margin-bottom: 0;
     margin-top: auto;
   }
+  /* .sm\:svg-light {
+    filter: invert(100%);
+  } */
+  @media screen and (max-width: 1024px) {
+    .sm\:svg-light {
+      filter: invert(100%);
+    }
   
+  }
+  /*
+  this actually works as bug:ug in the html. interesting!
+  */
+  .bug\:ugg\! {
+    display: none;
+  } 
